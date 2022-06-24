@@ -1,4 +1,4 @@
-# Challenge 5 Using dynamically updated HTML and CSS powered by jQuery to create a Work Day Scheduler
+# Challenge 5  Work Day Scheduler
 Using dynamically updated HTML and CSS powered by jQuery, a simple work day scheduler will be created that allow users to save events for each hour of the day. This application will run in the browser.
 Link to [Application]:()
 
