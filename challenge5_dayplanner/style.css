@@ -2,10 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  scroll-behavior: smooth; /*adde*/
+  scroll-behavior: smooth; /*added*/
 }
 
-.no-gutters {
+.row-no-gutters {
   margin-right: 0;
   margin-left: 0;
   margin-top: 0;
@@ -23,6 +23,8 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .jumbotron {
@@ -48,7 +50,6 @@ textarea {
   white-space: pre-wrap; 
   height: 80px;
   border-top: 1px solid white;
-  /*border: solid black;*/
 }
 
 .hour {
@@ -90,10 +91,3 @@ textarea {
   top:40%;
   left:40%;
 }
-
-
-
-/*.glyphicon-floppy-disk {
-  font-size: 1.5em;
-  margin: 5px;
-}<span class="glyphicon glyphicon-floppy-disk "></span>*/
