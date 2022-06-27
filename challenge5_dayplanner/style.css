@@ -2,9 +2,21 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  scroll-behavior: smooth; /*adde*/
 }
 
-textarea{
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+.col,
+[class*="col-"] {
+ padding-right: 0;
+ padding-left: 0;
+}
+
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -14,6 +26,7 @@ textarea{
 }
 
 .jumbotron {
+  margin-bottom: 0; /*added to remove space between black bar and schedule blocks */
   text-align: center;
   background-color: transparent;
   color: black;
@@ -31,9 +44,11 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
+ 
+  white-space: pre-wrap; 
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  /*border: solid black;*/
 }
 
 .hour {
@@ -69,3 +84,16 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.fa-floppy-disk {
+  position:absolute;
+  top:40%;
+  left:40%;
+}
+
+
+
+/*.glyphicon-floppy-disk {
+  font-size: 1.5em;
+  margin: 5px;
+}<span class="glyphicon glyphicon-floppy-disk "></span>*/

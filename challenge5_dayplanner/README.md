@@ -23,7 +23,7 @@ THEN **each time block is color-coded** to indicate whether it is in the **past,
 WHEN  the user click into a time block,
 THEN  an **event can be entered**.
 
-WHEN  the user ** click the save button for that time block**,
+WHEN  the user **click the save button for that time block**,
 THEN the **text for that event is saved in local storage.**
 
 WHEN  the **user refresh the page**,
