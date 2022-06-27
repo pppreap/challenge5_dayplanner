@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  scroll-behavior: smooth; /*added*/
+  scroll-behavior: smooth; /*added for smooth scroll*/
 }
 
 .row-no-gutters {
@@ -10,6 +10,7 @@ body {
   margin-left: 0;
   margin-top: 0;
 }
+
 .col,
 [class*="col-"] {
  padding-right: 0;
