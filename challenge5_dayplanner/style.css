@@ -28,6 +28,8 @@ textarea {
 }
 
 .jumbotron {
+  padding-top: 0;
+  padding-bottom: 0;
   margin-bottom: 0; /*added to remove space between black bar and schedule blocks */
   text-align: center;
   background-color: transparent;
@@ -46,7 +48,6 @@ textarea {
 }
 
 .row {
- 
   white-space: pre-wrap; 
   height: 80px;
   border-top: 1px solid white;
@@ -56,6 +57,9 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 .past {
