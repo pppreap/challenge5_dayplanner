@@ -34,7 +34,7 @@ These are images of the application.
 ![]()
 
 #### Links
-[Github Repository]()
+[Github Repository]() ///
 [Link to Work Day Scheduler]()
 
 #### Credits
