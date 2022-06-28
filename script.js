@@ -3,11 +3,8 @@
 var currentDay = moment().format("dddd, MMMM Do YYYY").toString();
 document.getElementById("currentDay").innerHTML = currentDay;
 
-
 //color coded time blocks using .each  and .prop  method, and this, along with moment js hour format , api.jquery.com momentjs.com
-var currentHour = moment().format("HH");
-const colorblock = document.getElementsByClassName("colorblock");
-
+var currentHour = moment().format("H");
 
 $(".colorblock").each(function(){
     var time = parseInt($(this).prop('id'));
@@ -15,15 +12,10 @@ $(".colorblock").each(function(){
     $(this).css('background-color','#77dd77');
     } else if (time < currentHour){
     $(this).css('background-color','#d3d3d3');    
-    } else if (time === currentHour){
-    $(this).css('background-color','#ff6961');  
     } else {
-        $(this).css('background-color','white');    
-    }
+    $(this).css('background-color','#ff6961');  
+    } 
 });
-
-
-
 
 //add click event to savebtn, set time and value to localstorage
 $(".saveBtn").click(function(e) {
@@ -31,6 +23,7 @@ $(".saveBtn").click(function(e) {
     var value = $(this).siblings(".colorblock").val();
     var time = $(this).parent().attr("id");
     localStorage.setItem(time,value);
+  
 });
 
 //get stored data from localStorage
