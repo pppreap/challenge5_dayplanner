@@ -47,5 +47,5 @@ These are images of the  working application.
 
 #### Credits
 Original Start Code from Michigan State University Coding Boot Camp 2022.
-https://api.jquery.com
-https://momentjs.com
+[https://api.jquery.com]///
+[https://momentjs.com]
