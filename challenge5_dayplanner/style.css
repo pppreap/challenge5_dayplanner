@@ -5,7 +5,7 @@ body {
   scroll-behavior: smooth; /*added for smooth scroll*/
 }
 
-.row-no-gutters {
+/*.row-no-gutters {
   margin-right: 0;
   margin-left: 0;
   margin-top: 0;
@@ -15,7 +15,7 @@ body {
 [class*="col-"] {
  padding-right: 0;
  padding-left: 0;
-}
+}*/
 
 textarea {
   background: transparent;
@@ -24,8 +24,8 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-  min-width: 100%;
-  min-height: 100%;
+  /*min-width: 100%;
+  min-height: 100%;*/
 }
 
 .jumbotron {
@@ -58,9 +58,6 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  text-align: right;
-  padding-top: 20px;
-  padding-right: 20px;
 }
 
 .past {
